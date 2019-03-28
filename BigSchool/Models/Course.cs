@@ -14,7 +14,7 @@ namespace BigSchool.Models
         [Required]
         [StringLength(255)]
         public string Place { get; set; }
-        public DateTime DataTime { get; set; }
+        public DateTime DateTime { get; set; }
       
         public Category Category { get; set; }
         [Required]
